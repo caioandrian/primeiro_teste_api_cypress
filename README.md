@@ -27,7 +27,7 @@ Utilizando a <b>API gorest.co.in</b> automatizar os seguintes endpoints (todos o
 - A base da URL para testar a API foi colocada no arquivo cypress.json.<br/>
 - Os métodos para execução das requisições foram colocadas separadamente no arquivo Commands.js dentro da pasta support.<br/>
 
-<b>* mais detalhes sobre a documentação, instalação e execução, está disponível no arquivo em PDF com o nome "Documentacao".</br>
+<b>* mais detalhes sobre a documentação, instalação e execução estão disponíveis no arquivo abaixo.</br>
   Link: https://github.com/caioandrian/test_api_gorest_cypress/blob/main/Documentacao.pdf
 </b><br/>
 

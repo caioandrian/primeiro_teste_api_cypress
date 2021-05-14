@@ -1,0 +1,30 @@
+{
+  "name": "test_api_gorest_cypress",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caioandrian/test_api_gorest_cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caioandrian/test_api_gorest_cypress/issues"
+  },
+  "homepage": "https://github.com/caioandrian/test_api_gorest_cypress#readme",
+  "dependencies": {
+    "cypress": "^7.3.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^2.0.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2"
+  }
+}

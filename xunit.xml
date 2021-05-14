@@ -1,0 +1,5 @@
+<testsuite name="Mocha Tests" tests="3" failures="0" errors="0" skipped="0" timestamp="Fri, 14 May 2021 03:05:31 GMT" time="3.519">
+<testcase classname="AUTOMA&#xC7;&#xC3;O API CYPRESS - GOREST.CO.IN" name="GET User" time="2.167"/>
+<testcase classname="AUTOMA&#xC7;&#xC3;O API CYPRESS - GOREST.CO.IN" name="POST New User" time="0.451"/>
+<testcase classname="AUTOMA&#xC7;&#xC3;O API CYPRESS - GOREST.CO.IN" name="DELETE User" time="0.835"/>
+</testsuite>

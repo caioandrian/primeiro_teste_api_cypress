@@ -28,7 +28,7 @@ Utilizando a <b>API gorest.co.in</b> automatizar os seguintes endpoints (todos o
 - Os métodos para execução das requisições foram colocadas separadamente no arquivo Commands.js dentro da pasta support.<br/>
 
 <b>* mais detalhes sobre a documentação, instalação e execução, está disponível no arquivo em PDF com o nome "Documentação e Instalação".</br>
-  Link: https://github.com/caioandrian/test_api_gorest_cypress/blob/main/Documenta%C3%A7%C3%A3o%20e%20Instala%C3%A7%C3%A3o.pdf
+  Link: https://github.com/caioandrian/test_api_gorest_cypress/blob/main/Documentacao.pdf
 </b><br/>
 
 

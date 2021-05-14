@@ -15,7 +15,8 @@ Utilizando a <b>API gorest.co.in</b> automatizar os seguintes endpoints (todos o
 - Recuperar informações de um usuário<br/>
 - Deletar um usuário do sistema<br/>
 
-<b>* mais detalhes sobre os cenários escritos em BDD estão dentro da pasta features no arquivo em PDF chamado features. <br/></b>
+<b>* mais detalhes sobre os cenários escritos em BDD estão dentro da pasta features. <br/>
+  Link: https://github.com/caioandrian/test_api_gorest_cypress/blob/main/cypress/features/features.pdf<br/></b>
 
 <br/>----<br/>
 
@@ -26,7 +27,9 @@ Utilizando a <b>API gorest.co.in</b> automatizar os seguintes endpoints (todos o
 - A base da URL para testar a API foi colocada no arquivo cypress.json.<br/>
 - Os métodos para execução das requisições foram colocadas separadamente no arquivo Commands.js dentro da pasta support.<br/>
 
-<b>* mais detalhes sobre a documentação, instalação e execução, está disponível no arquivo em PDF com o nome "Documentação e Instalação".</b><br/>
+<b>* mais detalhes sobre a documentação, instalação e execução, está disponível no arquivo em PDF com o nome "Documentação e Instalação".</br>
+  Link: https://github.com/caioandrian/test_api_gorest_cypress/blob/main/Documenta%C3%A7%C3%A3o%20e%20Instala%C3%A7%C3%A3o.pdf
+</b><br/>
 
 
 

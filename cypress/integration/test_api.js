@@ -8,7 +8,7 @@ describe('AUTOMAÇÃO API CYPRESS - GOREST.CO.IN', () => {
         cy.getToken();
     })
 
-    describe("POST Novo Usuário", () => {
+    describe("Deve Criar um Novo Usuário", () => {
         it('Entrada Válida', () => {
             cy.postNewUser("Caio Tester", "Male", "teste_api_caio@qualquer.com", "Active")
                 .then((res) => {
@@ -37,7 +37,7 @@ describe('AUTOMAÇÃO API CYPRESS - GOREST.CO.IN', () => {
         })
     })
 
-    describe("GET Usuário", () => {
+    describe("Deve Recuperar um Usuário", () => {
         it("Id Válido", () => {
             cy.getUserById(id_new_user).then((res) => {
                 console.log(res)
@@ -60,7 +60,7 @@ describe('AUTOMAÇÃO API CYPRESS - GOREST.CO.IN', () => {
         })
     })
 
-    describe("DELETE Usuário", () => {
+    describe("Deve Deletar um Usuário", () => {
         it('Usuário Existente', () => {
             cy.deleteUser(id_new_user).then((res_delete) => {
                 console.log(res_delete)

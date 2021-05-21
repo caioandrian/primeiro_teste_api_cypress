@@ -10,23 +10,39 @@ describe('AUTOMAÇÃO API CYPRESS - GOREST.CO.IN', () => {
 
     describe("Deve Criar um Novo Usuário", () => {
         it('Entrada Válida', () => {
-            cy.postNewUser("Caio Tester", "Male", "teste_api_caio@qualquer.com", "Active")
+            cy.postNewUser("Caio Tester", "Male", "teste_api_caio5@qualquer.com", "Active")
                 .then((res) => {
                     console.log(res)
                     expect(res).to.have.property('status', 200)
                     expect(res.body).to.have.property('code', 201)
                     expect(res.body.data).to.have.property('id')
+
                     expect(res.body.data).to.have.property('name', "Caio Tester")
+                    //valida se o nome nao possui numeros
+                    expect(res.body.data).to.have.property('name').to.be.deep.match(/\D+/)
+                    //valida se o nome é uma string
+                    expect(res.body.data).to.have.property('name').to.be.a('string')
+
                     expect(res.body.data).to.have.property('gender', "Male")
-                    expect(res.body.data).to.have.property('email', "teste_api_caio@qualquer.com")
+                    //valida se o genero nao possui numeros
+                    expect(res.body.data).to.have.property('gender').to.be.deep.match(/\D+/)
+                    //valida se o genero é uma string
+                    expect(res.body.data).to.have.property('gender').to.be.a('string')
+
                     expect(res.body.data).to.have.property('status', "Active")
+                    //valida se o status nao possui numeros
+                    expect(res.body.data).to.have.property('status').to.be.deep.match(/\D+/)
+                    //valida se o status é uma string
+                    expect(res.body.data).to.have.property('status').to.be.a('string')
+
+                    expect(res.body.data).to.have.property('email', "teste_api_caio5@qualquer.com")
 
                     id_new_user = res.body.data.id
                 })
         })
 
         it('Entrada Inválida (email duplicado)', () => {
-            cy.postNewUser("Caio Tester", "Male", "teste_api_caio@qualquer.com", "Active")
+            cy.postNewUser("Caio Tester", "Male", "teste_api_caio5@qualquer.com", "Active")
                 .then((res) => {
                     console.log(res)
                     expect(res).to.have.property('status', 200)
@@ -44,10 +60,26 @@ describe('AUTOMAÇÃO API CYPRESS - GOREST.CO.IN', () => {
                 expect(res).to.have.property('status', 200)
                 expect(res.body).to.have.property('code', 200)
                 expect(res.body.data).to.have.property('id')
+
                 expect(res.body.data).to.have.property('name', "Caio Tester")
+                //valida se o nome nao possui numeros
+                expect(res.body.data).to.have.property('name').to.be.deep.match(/\D+/)
+                //valida se o nome é uma string
+                expect(res.body.data).to.have.property('name').to.be.a('string')
+
                 expect(res.body.data).to.have.property('gender', "Male")
-                expect(res.body.data).to.have.property('email', "teste_api_caio@qualquer.com")
+                //valida se o genero nao possui numeros
+                expect(res.body.data).to.have.property('gender').to.be.deep.match(/\D+/)
+                //valida se o genero é uma string
+                expect(res.body.data).to.have.property('gender').to.be.a('string')
+
                 expect(res.body.data).to.have.property('status', "Active")
+                //valida se o status nao possui numeros
+                expect(res.body.data).to.have.property('status').to.be.deep.match(/\D+/)
+                //valida se o status é uma string
+                expect(res.body.data).to.have.property('status').to.be.a('string')
+
+                expect(res.body.data).to.have.property('email', "teste_api_caio5@qualquer.com")
             })
         })
 

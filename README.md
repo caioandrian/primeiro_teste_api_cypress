@@ -1,5 +1,5 @@
-# Teste de API (Validação de Contrato com AJV)
-Um exemplo completo de uma validação de contrato usando ajv com Cypress.
+# Teste de API 
+Desafio
 
 #### **API**:
 - website: https://gorest.co.in

@@ -1,5 +1,8 @@
 # Teste de API 
-Desafio
+Primeiro desafio usando bdd e report.
+
+Exemplo básico, porém não é o mais recomendado.
+<br/>
 
 #### **API**:
 - website: https://gorest.co.in

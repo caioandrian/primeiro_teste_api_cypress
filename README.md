@@ -11,7 +11,7 @@ Primeiro desafio usando bdd e report.
 
 <br/>
 
-- website: restful-booker.herokuapp.com
+- website: https://restful-booker.herokuapp.com
 
 <br/>
 

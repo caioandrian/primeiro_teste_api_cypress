@@ -1,7 +1,7 @@
 # Teste de API 
 Primeiro desafio usando bdd e report.
 
-Exemplos básicos, porém não são os mais recomendados.
+******Apenas exemplos básicos, não são os mais recomendados.******	
 
 <br/>
 

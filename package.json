@@ -1,5 +1,5 @@
 {
-  "name": "test_api_gorest_cypress",
+  "name": "primeiro_teste_api_cypress",
   "version": "1.0.0",
   "description": "teste",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caioandrian/test_api_gorest_cypress.git"
+    "url": "git+https://github.com/caioandrian/primeiro_teste_api_cypress.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/caioandrian/test_api_gorest_cypress/issues"
+    "url": "https://github.com/caioandrian/primeiro_teste_api_cypress/issues"
   },
-  "homepage": "https://github.com/caioandrian/test_api_gorest_cypress#readme",
+  "homepage": "https://github.com/caioandrian/primeiro_teste_api_cypress#readme",
   "dependencies": {
     "cypress": "^7.3.0"
   },

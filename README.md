@@ -1,13 +1,17 @@
 # Teste de API 
 Primeiro desafio usando bdd e report.
 
-Exemplo básico, porém não é o mais recomendado.
+Exemplos básicos, porém não são os mais recomendados.
 
 <br/>
 
 #### **API**:
 - website: https://gorest.co.in
 - base url do projeto, está declarado no arquivo cypress.json
+
+<br/>
+
+- website: restful-booker.herokuapp.com
 
 <br/>
 
@@ -19,10 +23,17 @@ Exemplo básico, porém não é o mais recomendado.
 
 <br/>
 
+- / auth [POST]
+- / booking [GET, POST]
+- / booking?param1=valor1&param2=valor2 [GET](precisa arrumar)
+- / booking/${_booking_id} [GET, PUT, DELETE]
+
+<br/>
+
 ### ---- Diferenciais no projeto ----
 <br/>
 
-- BDD (não aplicável, apenas leitura)
+- BDD (apenas para leitura)
 - Cypress Mochawesome Reporter / Cypress Multi Reporters (não recomendado, usar multiple-cucumber-html-reporter)
 
 <br/>

@@ -1,35 +1,42 @@
-# test_api_gorest_cypress
-Utilizando a <b>API gorest.co.in</b> automatizar os seguintes endpoints (todos os fluxos cabíveis para cada endpoint).<br/>
+# Teste de API (Validação de Contrato com AJV)
+Um exemplo completo de uma validação de contrato usando ajv com Cypress.
 
-<b>Ferramenta para automação: Cypress versão 7.3.0</b><br/>
+#### **API**:
+- website: https://gorest.co.in
+- base url do projeto, está declarado no arquivo cypress.json
 
-<b>GET</b> /public-api/users/123 (Get User Details)<br/>
-<b>POST</b> /public-api/users (Create New User)<br/>
-<b>DELETE</b> /public-api/users/123 (Delete User)
+<br/>
 
-<br/>----<br/>
+### ---- Lista de Rotas Testadas ----
+<br/>
 
-<b>Funcionalidades testadas:<br/></b>
+- / users [POST]
+- / users/{_$id} [GET, DELETE]
 
-- Cadastrar um novo usuário<br/>
-- Recuperar informações de um usuário<br/>
-- Deletar um usuário do sistema<br/>
+<br/>
 
-<b>* mais detalhes sobre os cenários escritos em BDD estão dentro da pasta features. <br/>
-  Link: https://github.com/caioandrian/test_api_gorest_cypress/blob/main/cypress/features/features.pdf<br/></b>
+### ---- Diferenciais no projeto ----
+<br/>
 
-<br/>----<br/>
+- BDD (não aplicável, apenas leitura)
+- Cypress Mochawesome Reporter / Cypress Multi Reporters (não recomendado, usar multiple-cucumber-html-reporter)
 
-<b>Organização dos arquivos:</b><br/>
-- A pasta integration contém o arquivo test_api.js com os conjuntos de testes.<br/>
-- A pasta features contém um arquivo pdf com cenários escritos em BDD.<br/>
-- A pasta reports recebe um arquivo HTML e json contendo o resultado do testes reportados.
-- A base da URL para testar a API foi colocada no arquivo cypress.json.<br/>
-- Os métodos para execução das requisições foram colocadas separadamente no arquivo Commands.js dentro da pasta support.<br/>
+<br/>
 
-<b>* mais detalhes sobre a documentação, instalação e execução estão disponíveis no arquivo abaixo.</br>
-  Link: https://github.com/caioandrian/test_api_gorest_cypress/blob/main/Documentacao.pdf
-</b><br/>
+### ---- Lista de dependências ----
+<br/>
 
+    { "cypress": "^7.3.0",
+    "cypress-mochawesome-reporter": "^2.0.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2" }
 
+**Instalar dependências via node**
+> npm install
 
+**Executar os testes pela interface gráfica do cypress**
+> npm run cy:open
+
+**Gerar reports json / screenshots**
+> npm run cy:run
